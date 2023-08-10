@@ -2,7 +2,7 @@
 /** @module Login-Script */
 /**
 *membuat variabel loginFormElement untuk tampilan form.
-*@constant {HTMLElement}
+* @constant {HTMLElement}
 */
 
 const loginFormElement = document.querySelector('#loginForm');
@@ -21,13 +21,13 @@ const inputPasswordElement = document.querySelector('#inputPassword');
 
 /**
 * Membuat variabel expectedEmail untuk menyimpan informasi email sementara.
-* @constant{string}
+* @constant {string}
 */
 const expectedEmail = 'admin@dicoding.com';
 
 /**
 * Membuat variabel expectedPassword untuk menyimpan informasi password sementara.
-* @constant{string}
+* @constant {string}
 */
 const expectedPassword = 'superpassword';
 
